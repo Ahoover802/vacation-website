@@ -1,0 +1,64 @@
+<html>
+<head>
+  <link href = "bootstrap-grid.min2.css" rel = "stylesheet">
+  <link href = "style.css" rel = "stylesheet">
+  <link href = "obnoxious.css" rel = "stylesheet">
+</head>
+<body>
+  <!--<div class="jumbotron text-center"> This is the same a title -->
+  <center>
+    <div id = "top">
+    <h1 class = "fontalicious">Vacation Website</h1>
+  </center>
+</div>
+<div class="container"><!-- don't mess with these classes -->
+  <div class="row"><!-- We have one row -->
+    <div class="col-sm-3" id = "section1"> <!-- sm = small view(detects small screens like phones and does small screen animation)-->
+      <h3>Places To Swim! </h3>
+      <ul>
+        <a class = "swimming" href = "https://fun-plex.com/"> Fun Plex </a>
+        <br><br>
+        <a class = "swimming" href = "https://www.omahazoo.com/alaskan-adventure"> Alaskan Adventure </a>
+        <br><br>
+        <a class = "swimming" href = "https://www.countyoffice.org/stone-ridge-splash-park-omaha-ne-4d1/"> Stone Ridge Splash Park </a>
+      </ul>
+    </div>
+    <div class="col-sm-6" id = "section2"><!-- size can be changed by chaning 6 to another number but other columns must be adjusted to add to 12-->
+      <center>
+        <table>
+          <tr>
+            <td class = "leftTD"> <p class = "text">The Henry Doorly Zoo is one of the most popular places in Omaha. With many exhibits it is a definite must see and worth the price!</p> </td>
+            <td> <img id = "pic1" src = "HenryDoorlyZoo.jpeg" alt = "failed to load"></td>
+          </tr>
+          <tr>
+            <td class = "leftTD"> <img id = "pic2" src = "LauritzenGarden.jpeg" alt = "failed to load"> </td>
+            <td> <p class = "text">The Lauritzen Gardens are a beautiful place to visit if nature appeals to you!</p> </td>
+          </tr>
+          <tr>
+            <td class ="leftTD"> <p class = "text">Euegene Mahoney State Park is one of many state parks. Featuring trails and hunting spots, this would be a good place to visit.</p> </td>
+            <td> <img id = "pic3" src = "EugeneMahoneyStatePark.jpeg" alt = "failed to load"></td>
+          </tr>
+        </table>
+      </center>
+    </div>
+    <div class="col-sm-3" id = "section3"><!-- give this id though, don't want 2 css files acting on one class-->
+      <ul>
+        <h3> Museums In Omaha! </h3>
+        <a class = "museums" href = "https://www.joslyn.org/"> Joslyn Art Museum </a>
+        <br>
+        <br>
+        <a class = "museums"href = "https://durhammuseum.org/"> The Durham Museum </a>
+        <br>
+        <br>
+        <a class = "museums" href = "https://ocm.org/"> Omaha's Children Museum </a>
+      </ul>
+    </div>
+  </div>
+</div>
+<div id = "outside">
+  <center>
+  <p id = "author" class = "text"> By Aaron </p>
+  <br>
+  <p class = "text"> Last updated 9/8/2021 </p>
+</body>
+</html>

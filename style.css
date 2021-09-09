@@ -1,0 +1,66 @@
+/* find by class use . */
+.text{
+  font-size: 20px;
+  font-family: FiraSans;
+  color:black;
+}
+#section1{
+  border-top: 5px solid black;
+}
+#section2{
+  height:100vh;
+  border-right: 5px dashed black ;
+  border-left: 5px dashed black;
+  border-top: 5px solid black;
+}
+#section3{
+  border-top: 5px solid black;
+}
+a{
+  text-decoration:none;
+  font-size: 20px;
+  color: #78AADC;
+}
+a:hover{
+  background-color:blue;
+  color:white;
+}
+.leftTD{
+  padding-right: 20px;
+}
+body{
+  background-color: #b8328c;
+}
+@font-face{
+  font-family: FiraSans;
+  src: url(FiraSans.ttf);
+}
+img{
+  height:200px;
+  width: 200px;
+}
+.museums{
+  color: black;
+  font-size:18px;
+  font-family:FiraSans;
+}
+.swimming{
+  color:black;
+  font-size:18px;
+  font-family:FiraSans;
+}
+#pic1{
+  height: 200px;
+  width: 225px;
+}
+#pic2{
+  height:175px;
+  width: 275px;
+}
+#pic3{
+  height: 160px;
+  width: 225px;
+}
+#author{
+  padding-top:30px;
+}
